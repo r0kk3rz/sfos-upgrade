@@ -9,7 +9,7 @@ Packager:      olf
 License:       MIT
 URL:           https://github.com/Olf0/%{name}
 Source:        %{name}-%{version}-%{release}.tar.gz
-Source1:       https://github.com/Olf0/%{name}/archive/%{version}-%{release}.tar.gz
+Source1:       https://github.com/Olf0/%{name}/archive/%{name}-%{version}-%{release}.tar.gz
 BuildArch:     noarch
 Requires:      ssu
 Requires:      sailfish-version
