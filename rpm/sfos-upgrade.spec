@@ -8,7 +8,7 @@ Vendor:        olf
 Packager:      olf
 License:       MIT
 URL:           https://github.com/Olf0/%{name}
-Source:        https://github.com/Olf0/%{name}/archive/%{version}-%{release}/%{name}-%{version}-%{release}.tar.gz
+Source:        https://github.com/Olf0/%{name}/archive/%{version}-%{release}/%{name}-%{version}.tar.gz
 BuildArch:     noarch
 Requires:      ssu
 Requires:      sailfish-version
@@ -21,7 +21,7 @@ With a version number provided as parameter it sets SSU to this version and in r
 Without a version number it retrieves the one set for SSU to perform slightly relaxed checks, but does not alter SSU's settings for upgrading.
 
 %prep
-%setup -n %{name}-%{version}-%{release}
+%setup -n %{name}-%{version}
 
 %build
 
